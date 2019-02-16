@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ffcdd2;
+    background: linear-gradient(#c51162, white);
+  /*   padding-left: 10%; */
+  /*   padding-right: 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .title {
+    font-family: Roboto;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    animation-name: bounceInUp;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    margin-top: 5%;
+      
+  }
+  
+  .imagebox {
+  /*   background: white; */
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .img{
+    border-radius: 50%;
+    margin: 0 auto;
+    max-width: 100%;
+    
+    
+  }
+  
+  article {
+    overflow: hidden;
+    font-family:Roboto;
+    padding:1%;
+    color: white;
+  /*   border: 4px solid red; */
+  }
+  
+  h2{
+    color:#C62828;
+  }
+  
+  h3{
+    color:#E57373;
+  }
+  
+  .table {
+    float:left;
+    width: 50%;
+    padding:30px;
+    display: inline-block;
+  }
+  
+  table{
+    border-collapse: collapse;
+    
+  }
+  
+  
+  
+  td, th {
+    border: 2px solid white;
+    padding: 0.5rem;
+    text-align: left;
+    font-style:light;
+    color:#B71C1C;
+    
+  }
+  
+  td:hover{
+    font-weight:bold;
+    background-color:white;
+  }
+  
+  th {
+    background: lightblue;
+    border-color: white;
+    color: white;
+    font-style: bolder;
+    font-family: monospace;
+  }
+  
+  .list {
+    float: left;
+    display: inline-block;
+    padding: 30px;
+    width: 50%;
+  }
+  
+  .contactForm {
+    margin:auto;
+    margin-top: 10%;
+    width:40%;
+    background-color:white;
+    font-family:roboto;
+    padding:1%;
+    text-align:center;
+  }
+  
+  .link{
+    color: white;
+  }
+  
+  .link:hover{
+    background-color: red;
+    color: pink;
+  }
