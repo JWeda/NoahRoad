@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: auto;
+    width: 50%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.caption {
+    background: tomato;
+    color: white;
+    padding: 1%;
+}
+
+.date {
+    float: left;
+    font-weight: bold;
+    margin: 0 2rem 1rem 0;
+}
+
+.image-left {
+    float: left;
+    margin: 2rem 2rem 2rem -8rem;
+}
+
+.qoute {
+    display: inline-block;
+    font-size: 32px;
+    font-style: italic;
+    height: 50%;
+    position: relative;
+    width: 50%;
+}
+
+.qoute-left {
+    border-right: 4px solid green;
+    float: left;
+    margin: 2rem 2rem 2rem -8rem;
+    padding-right: 1rem;
+}
+
+.qoute-right {
+   border-left: 4px solid green;
+   float: right;
+   margin: 2rem -8rem 2rem 2rem;
+   padding-left: 1rem;
+}
