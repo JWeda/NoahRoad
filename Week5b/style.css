@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+.flexBody {
+    background: rebeccapurple;
+    display: flex;
+    /* flex: 1 1 100%; */
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    /* width: 100vw; */
+    /* align-items: stretch; */
+}
+
+.footer {
+    background: powderblue;
+    flex: 0 0 2.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* width: 80%; */
+    /* align-self: center; */
+  }
+
+
+.header {
+    background: rgb(0, 47, 255);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.mainSection {
+    background: whitesmoke;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: stretch;
+}
+
+.mainContent {
+    background: whitesmoke;
+    flex: 3 1 80%;
+    padding: 1em;
+}
+
+.containerWhole{
+display: flex;
+flex: 1 1 auto;
+align-items: stretch;
+
+}
+
+.containerLeft {
+    /* flex: 1 1 auto; */
+    display: flex;
+    /* align-items: stretch; */
+    /* justify-content: stretch; */
+}
+
+.nav {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.nav-list {
+    display: flex;
+    /* flex-direction: row; */
+    font-weight: bold;
+    /*why did I have to use align-items instead of justify-content? because in a list the main axis by default is a column?*/
+    /* align-items: center; */
+    list-style: none;
+}
+
+.nav-list-item {
+    margin: 1em 2em 1em 2em;
+}
+
+.aside {
+    background: rgb(68, 40, 168);
+    flex: 1 1 10%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-left {
+    order: -1;
+    align-items: stretch;
+}

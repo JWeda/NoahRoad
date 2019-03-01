@@ -42,13 +42,16 @@
 
 .nav {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    /* Hi Floris, thanks for your answer. But this does not fully answer my question. As I understand it justify-content centers your content on your main axis and align-items center it on the other axis. In navigation I used a list. Is the default setting on a list, a row as well? I just tested it and it seems to be the case, but then I don't think I fully grasp the concept yet. Why are they stacked in list  if the default setting is row? I just commented out align-items in my code and defined flex-direction: row, and the result is the same as when I used align-items. I feel slightly confused.  */
 }
 
 .nav-list {
     display: flex;
+    /* flex-direction: row; */
+    font-weight: bold;
     /*why did I have to use align-items instead of justify-content? because in a list the main axis by default is a column?*/
-    align-items: center;
+    /* align-items: center; */
     list-style: none;
 }
 
